@@ -18,8 +18,8 @@ const UsefulLinks = () => {
       </div>
       <div className="links-part">
         <h3>Quick Contact</h3>
-        <h5>Email: college@example.com</h5>
-        <h5>Address: 123 College Street, City</h5>
+        <h5>Email: drshaitansscp@gmail.com</h5>
+        <h5>Address: Village-Gauntiya, Block-Rajepur, District-Farrukhabad</h5>
       </div>
     </div>
   );

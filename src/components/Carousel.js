@@ -3,9 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "../App.css";
 
-import image1 from '../assets/Carousel1.jpeg';
-import image2 from '../assets/Carousel2.jpeg';
-import image3 from '../assets/Carousel3.jpeg';
+import image1 from '../assets/Carousel 1.jpg';
+import image2 from '../assets/Carousel 2.jpg';
+import image3 from '../assets/Carousel 3.jpg';
+import image4 from '../assets/Carousel 4.jpg';
 
 const CustomCarousel = () => {
   return (
@@ -26,6 +27,9 @@ const CustomCarousel = () => {
       </div>
       <div>
         <img src={image3} alt="Slide 3"/>
+      </div>
+      <div>
+        <img src={image4} alt="Slide 4"/>
       </div>
     </Carousel>
   );

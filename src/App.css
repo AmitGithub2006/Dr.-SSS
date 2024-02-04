@@ -116,37 +116,52 @@ h2 {
   color: #E41937;
 }
 
-/* Mentors.js */
+/* Founders.js */
 
-.mentors-container {
+.founders-container {
   margin: 0 auto;
   padding: 20px;
   background-color: rgb(252, 242, 228);
 }
 
-.mentors-heading {
+.founders-carousel {
+  display: flex;
+}
+
+.founders-heading {
   text-align: center;
   color: #3498db;
   margin-bottom: 50px;
 }
 
-.mentors-heading span {
+.founders-heading span {
   color: #e41937;
 }
 
-.mentor-item {
+.founder-item {
   text-align: center;
+  margin: 0 auto;
 }
 
-.mentor-item img {
+.founder-item img {
   max-width: 150px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 5%;
 }
 
-.mentor-name {
+.founder-name {
   font-weight: bold;
   color: #333;
+}
+
+.founder-name div {
+  color: #e41937;
+  font-size: 0.8rem;
+}
+
+.founder-designation {
+  font-size: 0.9rem;
 }
 
 /* UsefulLinks.js */
@@ -162,7 +177,6 @@ h2 {
 .links-part {
   text-align: center;
   flex: 1;
-  /* margin-right: 20px; */
 }
 
 .links-part h3 {
@@ -190,7 +204,6 @@ h2 {
   background-color: #333333;
   color: #fff;
   padding: 10px;
-  /* width: 100%; */
 }
 
 .footer-left, .footer-right {

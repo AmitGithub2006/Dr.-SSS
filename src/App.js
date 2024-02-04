@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <img src={logo} alt="College Logo" />
-        <span>Dr. Shaitan Singh Shakya Nursing College</span>
+        <span>Dr. Shaitan Singh Shakya College of Pharmacy</span>
       </div>
       <ul>
         <li>

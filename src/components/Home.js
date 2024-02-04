@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from "./Carousel";
-import Mentors from './Mentors';
+import Founders from './Founders';
 import UsefulLinks from './UsefulLinks';
 import Footer from './Footer';
 
@@ -11,10 +11,10 @@ function Home() {
         <Carousel />
       </div>
       <div className="full-name">
-        WELCOME TO <span>DR. SHAITAN SINGH SHAKYA NURSING COLLEGE</span>
+        WELCOME TO <span>DR. SHAITAN SINGH SHAKYA COLLEGE OF PHARMACY</span>
       </div>
       <div>
-        <Mentors />
+        <Founders />
       </div>
       <div>
         <UsefulLinks />
